@@ -126,3 +126,4 @@ STATICFILES_DIRS = (
         os.path.join(BASE_DIR, 'tracker/static'),
         os.path.join(BASE_DIR, 'calc/static'),
         os.path.join(BASE_DIR, 'users/static'),
+)
