@@ -25,7 +25,7 @@ SECRET_KEY = 'i9(t6jspr78veatli(!sxojltmekli9ilk09msujbt&(o84c=ax'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['petes-macro-tracker.herokuapp.com']
 
 
 # Application definition
