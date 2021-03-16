@@ -11,4 +11,4 @@ django = "==2.2.9"
 python-dateutil = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.9"
