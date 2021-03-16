@@ -128,3 +128,7 @@ STATICFILES_DIRS = (
         os.path.join(BASE_DIR, 'calc/static'),
         os.path.join(BASE_DIR, 'user/static'),
 )
+
+if 'DATABASE_URL' in os.environ:
+    import dj_database_url
+    DATABASES = {'default': dj_database_url.config()}
